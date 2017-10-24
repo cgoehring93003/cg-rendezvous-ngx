@@ -1,0 +1,61 @@
+.example-h2 {
+  margin: 10px;
+}
+
+.example-section {
+  /* display: flex;
+  align-content: center;
+  align-items: center;
+  height: 60px; */
+}
+
+.example-margin {
+  margin: 0 10px;
+}
+
+
+.flex-row {
+  padding: 10px 0;
+  display: flex;
+}
+
+.flex-equi-cell {
+  flex: 1;
+}
+
+.main-form-cell {
+  height: bheight;
+}
+
+.search-form-row {
+  height: 70px;
+}
+
+.button-row {
+  height: 90px;
+}
+
+.data-group-header {
+  font-family: Arial, Verdana, Sans-serif;
+
+  font-size: 20px;
+  margin-top: 100px;
+  padding: 15px 10px 0px 10px;  /* top right bottom and left */
+
+}
+
+.button-group {
+  align-content: center;
+  align-items: center;
+}
+
+.form-section {
+  margin-top: 10px;
+  margin-left: 30px;
+
+}
+
+.centered-input {
+  align-content: center;
+  align-items: center;
+}

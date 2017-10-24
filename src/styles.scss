@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "./variables.scss";
+
+
+
+
+
+
+ @import "~@angular/material/prebuilt-themes/indigo-pink.css"; 
+
+
+
+
+
+  @mixin boorder-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+
+
+
+.rounded-box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+

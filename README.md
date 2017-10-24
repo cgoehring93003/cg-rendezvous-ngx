@@ -1,6 +1,8 @@
 # Rendezvous
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
+This project is very new and has a long ways to ge before it is ready for 'production'.  
+
+It was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
 
 ## Development server
 

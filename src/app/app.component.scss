@@ -1,0 +1,153 @@
+
+@import "./../variables.scss";
+
+
+/* bheight: '700'; */
+
+
+
+/* for latter half of playlist */
+* {
+  box-sizing: border-box;
+}
+
+.main {
+
+  width: 1200px;  /* too small kills buttons in grid  */
+  text-align: left;
+  margin: 0 auto;
+  border: 10px solid $pcolor;   /*  #d7d7d7;*/
+  border-bottom: 10px;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;   /* affects grid and detail  */
+  background-color: #5c8297;
+  padding: 30px 0px;
+  margin-top: 0px;
+  color: white;
+
+}
+
+ .lefty {
+  text-align: left;
+
+ }
+
+/* what are these for??
+.addItem {
+  position: relative;
+  padding-bottom: 0px;
+  height: 30px;
+
+}
+
+.addText {
+  width: 80%;
+  height: 30px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.addItem button {
+  height: 45px;
+  width: 30px;
+  padding: 5px;
+}  */
+
+.xlist {
+  list-style: none;
+  font-size: 20px;
+  color: #686868;
+  margin-left: -40px;
+  margin-bottom: 0px;
+}
+
+.xlist .xitem {
+  border-bottom: 1px solid #bfbfbf;
+  background-color: #d7d7d7;
+  padding: 10px 0px;
+  margin-bottom: 5px; 
+} 
+
+.xitem span {
+  cursor: pointer;
+  position: relative;
+  float: right;
+  margin-right: 10px;
+}
+
+.app-content2 {
+  background: red;
+  width:80%;
+  float: right;
+  max-width: 650px;
+  max-height: 650px;
+}
+
+.app-content {
+    margin: auto;
+    width: 95%;
+    /* border: 3px solid green; */
+    padding: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #B6FF00;
+    height: 650px;
+}
+
+.app-content-left {
+    margin: auto;
+    float: left;
+    width: 50%;
+    height: 300px;
+    border: 1px solid red;
+    padding: 1px;
+}
+.app-content-right {
+    margin: auto;
+    float: right;    
+    width: 50%;
+    height: 300px;    
+    border: 1px solid blue;
+    padding: 1px;
+}
+
+/* for latter half of playlist */
+.container {
+  display: block;
+  background: #f4f4f4;
+  max-width: 700px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 40px;
+  text-align: center;
+  position: relative;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+
+input, select {
+  width: 90%;
+  display: inline-block;
+  padding: 5px;
+  font-weight: 100;
+  font-size: 15px;
+  margin: 5px 0;
+  color: #3f3f3f;
+}
+
+a.active {
+  color: red; 
+}
+
+
+
+.scrollable {
+    overflow: scroll;
+}
+
